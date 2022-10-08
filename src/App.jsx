@@ -22,9 +22,9 @@ const App = () => {
   // will store all the info for our restaurant in a single JavaScript Object. 
   // A JavaScript Object is a type of data structure which stores key-value pairs.
   const [places, setPlaces] = useState(placesInfo)
-
   const [showModal, setShowModal] = useState(false)
   const [allTags, setAllTags] = useState(['Burgers', 'Sashimi', 'Onigiri'])
+  
   const handleUpsertPlace = (placeInfo) => {
     setShowModal(false)
     const newPlaces = [...places]

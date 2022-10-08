@@ -57,6 +57,7 @@ const AddPlaceModal = (props) => {
   if (!props.show) {
     return null
   }
+  
   return (
     <div className="modal" onClick={props.onClose}>
       <form onSubmit={(e) => handleSubmitPlace(e)} onClick={(e) => e.stopPropagation()}>

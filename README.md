@@ -1,4 +1,4 @@
-# My Very First React App
+# My Very First React Project - Eatery Recorder
 
 ## Local Development
 
