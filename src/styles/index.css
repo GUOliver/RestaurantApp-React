@@ -1,0 +1,80 @@
+:root {
+  --max-screen-width: 768px;
+  --side-padding: 1.2rem;
+  --header-height: 4.2rem;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body::before {
+  display: block;
+  content: "";
+  height: var(--header-height);
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+textarea {
+  resize: vertical;
+}
+
+h1 {
+  font-size: 2rem;
+  margin: 0.8rem 0 0.8rem;
+}
+
+h3 {
+  font-size: 1.5rem;
+  margin: 0.2rem 0 0.4rem;
+}
+
+h4 {
+  margin: 0.2rem 0;
+}
+
+p {
+  margin: 0.8rem 0;
+}
+
+button {
+  padding: 0.5rem 1rem;
+  border-radius: 100vh;
+  width: fit-content;
+  height: fit-content;
+  display: flex;
+  align-items: center;
+  font-family: inherit;
+  font-weight: 600;
+  background-color: #80c1ec;
+  font-weight: 700;
+  border: 3px solid #80c1ec;
+  transition: color 0.1s, background-color 0.1s, border 0.1s;
+  transition-timing-function: ease-out;
+}
+
+button:hover, button:focus {
+  border: 3px solid #a7d0e7;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+button:active {
+  background-color: #a7d0e7;
+
+}
